@@ -1,0 +1,186 @@
+
+footer {
+	display: flex;
+}
+
+header {
+	display: flex;
+}
+
+.titleleft {
+	float: left;
+	margin: 30px;
+}
+
+.titleright {
+	float: right;
+	margin: 30px;
+}
+
+.picture {
+	float: left;
+	height: 32px;
+	width: 32px;
+	margin-right: 10px;
+}
+
+.nom {
+	font-size:x-large;
+	font-weight: bold; 
+	float: left;
+	margin-left: 10px;
+}
+
+.metiere {
+	font-size: x-large;
+	float: left;
+	margin-left: 10px;
+}
+
+#conteiner {
+	display: flex;
+}
+#contenue {
+	background-color: rgb(173, 216, 230);
+}
+
+#box1 {
+	width: 50%;
+	background-color: rgb(173, 216, 230);
+	/*a effecer des que possible*/
+	height: 800px;
+}
+
+#box2 {
+	width: 50%;
+}
+#row {
+	width: 50%;
+	background-color: rgb(173, 216, 230);
+	/*a effecer des que possible*/
+	height: 800px;
+}
+
+
+.conteiner2 {
+	z-index: 1;
+	width: 50%;
+	height: 500px;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 35%;
+	display: flex;
+}
+
+.photo {
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	margin-top: 70px;
+	border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.profil {
+	background-color: rgb(0,191,255);
+	width: 50%;
+}
+
+.profil2 {
+	width: 50%;
+	margin-top: 100px;
+    margin-left: 50px;
+}
+
+.icon {
+	background-color: rgb(10, 10, 10);
+	margin-top: 50px;
+	height: 60px;
+}
+
+.social {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-evenly;
+}
+.piepage{
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+	margin-top: 40px;
+    margin-bottom: 30px;
+}
+.contact{
+	width: 25px;
+}
+
+.download{
+    border-style: solid;
+    margin-top: 44px;
+    height: 26px;
+    width: 125px;
+}
+.text{
+	font-size: x-large;
+	font-style: oblique;
+	display: block;
+	text-align: center;
+}
+.btn-outline-info {
+    color: #0dcaf0;
+    border-color: #0dcaf0;
+    margin: 5px;
+}
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+    margin: 75px;
+}
+(/* stile del modulo contatto*/)
+form {
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  label, input[type=text], textarea {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+  }
+  input[type=text], textarea {
+	padding: 10px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  .smallRow{
+    height: 10vh;
+}
+
+.resume{
+	background-color: rgb(173, 216, 230);
+}
+.blockf {
+    background-color: white;
+    padding: 6px;
+}
+.logo{
+	float: left;
+}
+#sarapic {
+	height: 200px;
+}
